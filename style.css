@@ -1,0 +1,109 @@
+/* ====== GENERAL STYLES ====== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ====== HEADER ====== */
+header {
+  background: #e0e0e0;
+  padding: 10px 0;
+}
+
+.header-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 100px;
+  display: block;
+}
+
+/* ====== NAVIGATION ====== */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+/* ====== MAIN SECTIONS ====== */
+.section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  background: #999;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background: #777;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ====== MOBILE ====== */
+@media (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 5px 10px 0 0;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+}
