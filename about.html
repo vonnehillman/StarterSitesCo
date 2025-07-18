@@ -2,56 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About - YeetWebber</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - DigitalSacristan</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background: #f2f2f2;
-      color: #333;
-      line-height: 1.6;
-    }
-    header, footer {
-      background: #e0e0e0;
-      padding: 20px 40px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-    }
-    nav a:hover {
-      color: #555;
-    }
-    .section {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>About YeetWebber</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-    </nav>
+<body class="bg-gray-100 text-gray-800 font-[Inter]">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-6">
+      <h1 class="text-2xl font-bold text-700">DigitalSacristan</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-600 visited:text-gray-600 hover:text-blue-600 font-semibold">Home</a>
+        <a href="about.html" class="text-gray-600 visited:text-gray-600 hover:text-blue-600 font-semibold">About</a>
+        <a href="contact.html" class="text-gray-600 visited:text-gray-600 hover:text-blue-600 font-semibold">Contact</a>
+      </nav>
+    </div>
   </header>
-  <div class="section">
-    <h2>Our Mission</h2>
-    <p>YeetWebber was created to help small or large parishes thrive online without needing to learn code or hire expensive agencies. We focus on simple, effective website care—so your site works, grows, and lets the community around you know how to get involved and what your parish has to offer.</p>
-    <h2>Who We Serve</h2>
-    <p>We have successfully served parishes of the Richmond Diocese with reliable help managing their websites so you can focus on the Sacraments of the Church.</p>
-  </div>
-  <footer>
-    <p>&copy; 2025 YeetWebber | hello@yeetwebber.com | (555) 123-4567</p>
-  </footer>
+
+  <!-- Main Section -->
+  <main class="max-w-4xl mx-auto px-6 py-16">
+    <section class="mb-12">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">About DigitalSacristan</h2>
+      <p class="text-lg leading-relaxed">
+        DigitalSacristan is here to serve the behind the scenes, much like the role of a Sacristan, so that the work of the parish can be accomplished. DigitalSacristan is here to bring an awareness of parishes and ministries share their mission through vibrant, user-friendly websites. We take the stress out of maintaining your digital presence so you can focus on the sacrements, the work amongst the people, and prayer.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-gray-700 mb-2">What Makes Us Different?</h3>
+      <ul class="list-disc list-inside text-lg space-y-2">
+        <li>First hand knowledge of the business of parish life and the need to have help from the community and for the community!</li>
+        <li>Simple, clean layouts people actually want to visit</li>
+        <li>We handle updates, hosting, and help when you need it</li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="about-photo.jpg" alt="Our Team or Studio" class="rounded-lg shadow-md w-full max-w-xl mx-auto" />
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer bg-gray-100 text-center py-4 mt-12 text-sm">
+  <p>
+    &copy; 2025 Parish Website. All rights reserved. |
+    <a href="https://richmonddiocese.org/" target="_blank" class="text-600">
+      Catholic Diocese of Richmond
+    </a>
+  </p>
+</footer>
 </body>
 </html>

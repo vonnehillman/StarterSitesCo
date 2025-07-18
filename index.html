@@ -3,40 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YeetWebber - Home</title>
+  <title>DigitalSacristansite</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-  <div class="header-container">
-    <a href="index.html" class="logo">
-      <img src="yeetwebber-logo.png" alt="YeetWebber logo" />
-    </a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">DigitalSacristan</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-  </div>
-</header>
+  </header>
 
-  <div class="section">
-    <h2>Helping Growing Parishes Succeed Online</h2>
-    <p>We build and maintain simple, effective websites for people who don’t want to code. Whether you’re just getting started or need help keeping your site up-to-date, we’ve got your back.</p>
-    <a class="cta-button" href="services.html">What We Do</a>
-  </div>
+  <!-- Hero Section -->
+  <section class="hero-section" style="background-image: url('church1.jpg');">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Helping Parishes Online</h1>
+        <p>We build beautiful, simple websites for the Diocese of Richmond's Catholic community.</p>
+        <a href="contact.html" class="hero-button">Get in Touch</a>
+      </div>
+    </div>
+  </section>
 
-  <div class="section">
-    <h2>Want to See Our Work?</h2>
-    <p>Check out real websites we’ve built for local clients using WordPress and Squarespace.</p>
-    <a class="cta-button" href="portfolio.html">View Our Portfolio</a>
-  </div>
+  <!-- Footer -->
+ <footer class="footer bg-gray-100 text-center py-4 mt-12 text-sm">
+  <p>
+    &copy; 2025 Parish Website. All rights reserved. |
+    <a href="https://richmonddiocese.org/" target="_blank" class="text-600">
+      Catholic Diocese of Richmond
+    </a>
+  </p>
+</footer>
 
-  <footer>
-    <p>&copy; 2025 YeetWebber | hello@yeetwebber.com | (555) 123-4567</p>
-  </footer>
+
 </body>
 </html>
