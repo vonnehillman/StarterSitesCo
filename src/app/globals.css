@@ -1,26 +1,47 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* ── Augmenté brand palette (matched to logo PDF) ── */
+  --salmon:     #E8A898;   /* 肉色   Corinthian Pink          */
+  --cobalt:     #5AABDA;   /* 花浅葱  Cerulean Blue  ← logo   */
+  --vermillion: #E05858;   /* 朱色   Red Orange      ← logo   */
+  --sage:       #8C9B78;   /* 若苗色  Dark Greenish Glaucous  */
+  --teal:       #52796A;   /* Accent Teal            ← logo   */
+
+  /* ── Design tokens ── */
+  --background:    #ffffff;
+  --foreground:    #0d0d12;
+  --primary:       #5AABDA;   /* cobalt — matches logo circle */
+  --primary-dark:  #4090BE;
+  --accent:        #E05858;   /* vermillion — CTAs, squiggle  */
+  --accent-dark:   #C84040;
+  --surface:       #FDF4F2;   /* warm salmon tint             */
+  --muted:         #6b6b7b;
+  --border:        #e2e2e8;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background:  var(--background);
+  --color-foreground:  var(--foreground);
+  --color-primary:     var(--primary);
+  --color-primary-dark:var(--primary-dark);
+  --color-accent:      var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-surface:     var(--surface);
+  --color-muted:       var(--muted);
+  --color-border:      var(--border);
+  --color-salmon:      var(--salmon);
+  --color-cobalt:      var(--cobalt);
+  --color-vermillion:  var(--vermillion);
+  --color-sage:        var(--sage);
+  --color-teal:        var(--teal);
+  --font-sans:         var(--font-geist-sans);
+  --font-mono:         var(--font-geist-mono);
+  --font-nunito:       var(--font-nunito);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
