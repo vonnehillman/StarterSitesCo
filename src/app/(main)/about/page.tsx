@@ -49,6 +49,9 @@ export default function AboutPage() {
             run smarter ads, and create better content than most agencies deliver
             with a full staff. You get the output. You skip the overhead.
           </p>
+          <p className="mt-8 text-base font-semibold tracking-wide text-foreground/60">
+            — Vonne Hillman, Founder
+          </p>
         </div>
       </section>
 

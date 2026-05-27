@@ -66,8 +66,8 @@ export default function TermsPage() {
           <h2>8. Contact</h2>
           <p>
             Questions? Email me at{" "}
-            <a href="mailto:vonibeaty@gmail.com" className="text-primary hover:underline">
-              vonibeaty@gmail.com
+            <a href="mailto:vonnehillman@gmail.com" className="text-primary hover:underline">
+              vonnehillman@gmail.com
             </a>.
           </p>
         </div>

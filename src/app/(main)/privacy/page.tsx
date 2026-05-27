@@ -53,8 +53,8 @@ export default function PrivacyPage() {
           <h2>6. Contact</h2>
           <p>
             Questions about this policy? Email me at{" "}
-            <a href="mailto:vonibeaty@gmail.com" className="text-primary hover:underline">
-              vonibeaty@gmail.com
+            <a href="mailto:vonnehillman@gmail.com" className="text-primary hover:underline">
+              vonnehillman@gmail.com
             </a>.
           </p>
         </div>
